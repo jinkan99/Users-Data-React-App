@@ -1,0 +1,57 @@
+body{
+  background: peachpuff;
+}
+.header-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.433);
+  height: 60px;
+}
+
+h2{
+  margin-left: 20px;
+  margin-top: 15px;
+  color: white;
+  font-size: 30px;
+  font-family: Arial;
+}
+
+#btn{
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  border: transparent;
+  background: rgb(6, 129, 201);
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bolder;
+  color: white
+}
+
+.user-data{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border : transparent;
+  border-radius: 15px;
+  background: lightcyan;
+  box-shadow: 8px 8px 5px #aaaaaa;
+  margin: 20px 550px 20px 550px;
+  height: 200px;
+}
+
+ img{
+  margin: 10px;
+  border-radius: 50%;
+  border: 2.5px solid rgb(6, 129, 201);
+}
+
+p{
+  font-family: Arial;
+  font-size: 16px;
+}
